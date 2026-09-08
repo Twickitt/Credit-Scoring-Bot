@@ -19,6 +19,9 @@ Thumbs.db
 
 source/test_predict_csv.py
 source/test_predict.py
+notebooks/catboost_info/
 
 clients_predictions.csv
 input_clients.csv
+
+.claudeignore 
