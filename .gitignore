@@ -25,3 +25,5 @@ clients_predictions.csv
 input_clients.csv
 
 .claudeignore 
+CLAUDE.md
+.claude/

@@ -40,7 +40,7 @@ def prepare_dataframe(df_input: pd.DataFrame) -> pd.DataFrame:
 
     df_input = df_input.reindex(columns=raw_features)
 
-    df_input = pd.get_dummies(df_input, drop_first=True)
+    df_input = pd.get_dummies(df_input)
 
     df_input = df_input.reindex(columns=model_features, fill_value=0)
 

@@ -1,0 +1,18 @@
+{
+  "0": "What You Must Do When Invoked",
+  "1": "/graphify",
+  "2": "graphify reference: extra exports and benchmark",
+  "3": "bot.py",
+  "4": "graphify reference: query, path, explain",
+  "5": "predict.py",
+  "6": "graphify reference: add a URL and watch a folder",
+  "7": "graphify reference: commit hook and native CLAUDE.md integration",
+  "8": "graphify reference: incremental update and cluster-only",
+  "9": "graphify reference: GitHub clone and cross-repo merge",
+  "10": "graphify reference: transcribe video and audio",
+  "11": "Credit Risk Telegram Bot",
+  "12": "CLAUDE.md",
+  "13": ".claude/CLAUDE.md",
+  "14": "extraction-spec.md",
+  "15": "__init__.py"
+}

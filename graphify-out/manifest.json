@@ -1,0 +1,44 @@
+{
+  "examples/example_input.json": {
+    "mtime": 1788790276.7889435,
+    "seen": 1789133339.258299,
+    "ast_hash": "b50af8233545ceaf574b70a8cebc2245",
+    "semantic_hash": ""
+  },
+  "source/__init__.py": {
+    "mtime": 1788792127.3698785,
+    "seen": 1789133339.2583008,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "source/bot.py": {
+    "mtime": 1788792943.1714833,
+    "seen": 1789133339.2583015,
+    "ast_hash": "7521b150173dd3a3ca0905a868bb5239",
+    "semantic_hash": ""
+  },
+  "source/config.py": {
+    "mtime": 1788790646.1848967,
+    "seen": 1789133339.2583022,
+    "ast_hash": "2699e7fa8faf2a5323792c4604c16956",
+    "semantic_hash": ""
+  },
+  "source/predict.py": {
+    "mtime": 1789137090.0454283,
+    "seen": 1789137096.3820484,
+    "ast_hash": "a9b2d8969285296b1071335f688c8be9",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1788793736.8162444,
+    "seen": 1789133339.25831,
+    "ast_hash": "bf460488dbe6b4db2464ae486c56fca8",
+    "semantic_hash": ""
+  },
+  "requirements.txt": {
+    "mtime": 1788902984.4219677,
+    "seen": 1789133339.2583106,
+    "ast_hash": "c9512c460db0c48ae3330905cb2e9512",
+    "semantic_hash": ""
+  }
+}
