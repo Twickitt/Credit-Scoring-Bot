@@ -28,5 +28,4 @@ input_clients.csv
 .claudeignore 
 CLAUDE.md
 .claude/
-
-reports/
+graphify-out/cache/
