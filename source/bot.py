@@ -40,17 +40,23 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Формат JSON:\n\n"
         "{\n"
+        '  "SK_ID_CURR": 100001,\n'
         '  "AMT_INCOME_TOTAL": 202500.0,\n'
         '  "AMT_CREDIT": 406597.5,\n'
         '  "CODE_GENDER": "M"\n'
         "}\n\n"
+        "SK_ID_CURR — ID клиента, по нему бот находит его кредитную историю. "
+        "Без него оценка идёт только по анкете.\n\n"
         "Также можно отправить CSV-файл с исходными признаками клиента.\n"
         "Если в CSV есть колонка TARGET, она будет проигнорирована."
     )
 
 
 async def features_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    text = "Модель ожидает признаки:\n\n" + "\n".join(raw_features)
+    text = (
+        "Модель ожидает SK_ID_CURR (для поиска кредитной истории) и признаки анкеты:\n\n"
+        + "\n".join(raw_features)
+    )
 
     if len(text) > 3900:
         text = text[:3900] + "\n..."

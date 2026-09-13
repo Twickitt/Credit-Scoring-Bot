@@ -85,7 +85,7 @@
       "file_type": "code",
       "norm_label": "add_history()",
       "source_file": "source/predict.py",
-      "source_location": "L52"
+      "source_location": "L46"
     },
     {
       "id": "source_predict_predict",
@@ -97,7 +97,7 @@
       "file_type": "code",
       "norm_label": "predict()",
       "source_file": "source/predict.py",
-      "source_location": "L115"
+      "source_location": "L99"
     },
     {
       "id": "source_predict_predict_dataframe",
@@ -109,19 +109,7 @@
       "file_type": "code",
       "norm_label": "predict_dataframe()",
       "source_file": "source/predict.py",
-      "source_location": "L142"
-    },
-    {
-      "id": "source_predict_predict_probability",
-      "label": "predict_probability()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "predict.py",
-      "file_type": "code",
-      "norm_label": "predict_probability()",
-      "source_file": "source/predict.py",
-      "source_location": "L105"
+      "source_location": "L126"
     },
     {
       "id": "source_predict_prepare_dataframe",
@@ -133,7 +121,7 @@
       "file_type": "code",
       "norm_label": "prepare_dataframe()",
       "source_file": "source/predict.py",
-      "source_location": "L70"
+      "source_location": "L64"
     },
     {
       "id": "readme",
@@ -294,19 +282,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "source/predict.py",
-      "source_location": "L117",
-      "weight": 1.0
-    },
-    {
-      "source": "source_predict_predict",
-      "target": "source_predict_predict_probability",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "source/predict.py",
-      "source_location": "L119",
+      "source_location": "L101",
       "weight": 1.0
     },
     {
@@ -318,19 +294,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "source/predict.py",
-      "source_location": "L145",
-      "weight": 1.0
-    },
-    {
-      "source": "source_predict_predict_dataframe",
-      "target": "source_predict_predict_probability",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "source/predict.py",
-      "source_location": "L147",
+      "source_location": "L129",
       "weight": 1.0
     },
     {
@@ -342,7 +306,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "source/predict.py",
-      "source_location": "L99",
+      "source_location": "L93",
       "weight": 1.0
     },
     {
@@ -522,7 +486,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "source/predict.py",
-      "source_location": "L52",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -534,7 +498,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "source/predict.py",
-      "source_location": "L70",
+      "source_location": "L64",
       "weight": 1.0
     },
     {
@@ -546,7 +510,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "source/predict.py",
-      "source_location": "L52",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -558,7 +522,7 @@
       "confidence_score": 1.0,
       "context": "return_type",
       "source_file": "source/predict.py",
-      "source_location": "L142",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -651,35 +615,13 @@
     },
     {
       "source": "source_predict",
-      "target": "source_predict_predict_probability",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "source/predict.py",
-      "source_location": "L105",
-      "weight": 1.0
-    },
-    {
-      "source": "source_predict",
-      "target": "source_predict_predict",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "source/predict.py",
-      "source_location": "L115",
-      "weight": 1.0
-    },
-    {
-      "source": "source_predict",
       "target": "source_predict_predict_dataframe",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "source/predict.py",
-      "source_location": "L142",
+      "source_location": "L126",
       "weight": 1.0
     },
     {
@@ -690,7 +632,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "source/predict.py",
-      "source_location": "L52",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -701,7 +643,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "source/predict.py",
-      "source_location": "L70",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "source_predict",
+      "target": "source_predict_predict",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "source/predict.py",
+      "source_location": "L99",
       "weight": 1.0
     },
     {

@@ -1,11 +1,11 @@
 # Graph Report - Credit-Scoring-Bot  (2026-09-13)
 
 ## Corpus Check
-- 6 files · ~1,188 words
+- 6 files · ~1,088 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 22 nodes · 43 edges · 4 communities (2 shown, 1 thin omitted)
+- 21 nodes · 40 edges · 4 communities (2 shown, 1 thin omitted)
 - Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -21,15 +21,15 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `main()` - 6 edges
-2. `predict_dataframe()` - 6 edges
-3. `handle_text()` - 5 edges
-4. `handle_csv_file()` - 5 edges
-5. `prepare_dataframe()` - 5 edges
-6. `predict()` - 5 edges
-7. `start()` - 4 edges
-8. `help_command()` - 4 edges
-9. `features_command()` - 4 edges
-10. `add_history()` - 4 edges
+2. `handle_text()` - 5 edges
+3. `handle_csv_file()` - 5 edges
+4. `prepare_dataframe()` - 5 edges
+5. `predict_dataframe()` - 5 edges
+6. `start()` - 4 edges
+7. `help_command()` - 4 edges
+8. `features_command()` - 4 edges
+9. `add_history()` - 4 edges
+10. `predict()` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `handle_text()` --calls--> `predict()`  [EXTRACTED]
@@ -47,8 +47,8 @@ Cohesion: 0.58
 Nodes (8): DEFAULT_TYPE, features_command(), handle_csv_file(), handle_text(), help_command(), main(), start(), Update
 
 ### Community 5 - "predict.py"
-Cohesion: 0.42
-Nodes (7): DataFrame, Series, add_history(), predict(), predict_dataframe(), predict_probability(), prepare_dataframe()
+Cohesion: 0.43
+Nodes (6): DataFrame, Series, add_history(), predict(), predict_dataframe(), prepare_dataframe()
 
 ## Knowledge Gaps
 - **1 isolated node(s):** `Структура проекта`
@@ -59,9 +59,9 @@ Nodes (7): DataFrame, Series, add_history(), predict(), predict_dataframe(), pre
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `predict_dataframe()` connect `predict.py` to `bot.py`?**
-  _High betweenness centrality (0.106) - this node is a cross-community bridge._
-- **Why does `predict()` connect `predict.py` to `bot.py`?**
-  _High betweenness centrality (0.057) - this node is a cross-community bridge._
+  _High betweenness centrality (0.090) - this node is a cross-community bridge._
+- **Why does `handle_csv_file()` connect `bot.py` to `predict.py`?**
+  _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **Are the 5 inferred relationships involving `main()` (e.g. with `features_command()` and `handle_csv_file()`) actually correct?**
   _`main()` has 5 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Структура проекта` to the rest of the system?**
